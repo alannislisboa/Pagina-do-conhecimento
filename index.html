@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de JS com CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="titulo">Minha Caixa Interativa</h1>
+
+    <div id="caixa"></div>
+
+    <div class="botoes">
+        <button onclick="mudarTexto()">Mudar texto</button>
+        <button onclick="aumentarCaixa()">Aumentar caixa</button>
+        <button onclick="arredondarCaixa()">Arredondar caixa</button>
+        <button onclick="mudarCor()">Mudar cor</button>
+        <button onclick="adicionarBorda()">Adicionar Borda</button>
+        <button onclick="Resetar()">Resetar</button>
+    </div>
+
+    <p id="mensagem">Clique em um botão para ver a mudança.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

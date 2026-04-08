@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+}
+
+#caixa {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    margin: 20px auto;
+    transition: 0.3s;
+}
+
+.botoes {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#mensagem {
+    font-size: 18px;
+    color: #333;
+}
+
